@@ -1,0 +1,11 @@
+
+
+   rhoCentralFoam/
+  
+   Contains system/, 0/, and constant/ directories for the Mach 3 forward step
+   Tested to work with the solver rhoCentralFoam in openfoam/6.0
+
+   sonicFoam/
+  
+   Contains system/, 0/, and constant/ directories for the Mach 3 forward step
+   Tested to work with the solver sonicFoam in openfoam/6.0
