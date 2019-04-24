@@ -16,21 +16,21 @@ FoamFile
 
 dimensions      [0 0 0 1 0 0 0];
 
-internalField   uniform XXXXXX;
+internalField   uniform 1; //not sure
 
 boundaryField
 {
     inlet
     {
         type            fixedValue;
-        value           uniform XXXXXX;
+        value           uniform 1;
     }
 
     outlet
     {
         type            inletOutlet;
-        inletValue      uniform XXXXX;
-        value           uniform XXXXX;
+        inletValue      uniform 1; //not sure
+        value           uniform 1; //not sure
     }
 
     bottom
