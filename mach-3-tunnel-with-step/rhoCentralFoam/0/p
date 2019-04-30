@@ -41,7 +41,7 @@ boundaryField
         type            symmetryPlane;
     }
 
-    slip
+    step
     {
         type            fixedValue;
         value           uniform (0 0 0);
