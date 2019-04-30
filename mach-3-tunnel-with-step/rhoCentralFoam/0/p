@@ -41,9 +41,9 @@ boundaryField
         type            symmetryPlane;
     }
 
-    obstacle
+    step
     {
-        type            zeroGradient;
+        type            wall;
     }
 
     defaultFaces
