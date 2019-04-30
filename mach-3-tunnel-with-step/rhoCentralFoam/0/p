@@ -41,9 +41,10 @@ boundaryField
         type            symmetryPlane;
     }
 
-    step
+    slip
     {
-        type            zeroGradient;
+        type            fixedValue;
+        value           uniform (0 0 0);
     }
 
     defaultFaces
