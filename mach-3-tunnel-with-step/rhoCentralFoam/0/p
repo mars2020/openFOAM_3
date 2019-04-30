@@ -43,7 +43,7 @@ boundaryField
 
     step
     {
-        type            wall;
+        type            zeroGradient;
     }
 
     defaultFaces
