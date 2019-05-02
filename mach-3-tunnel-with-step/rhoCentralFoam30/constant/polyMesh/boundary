@@ -20,42 +20,42 @@ FoamFile
     inlet
     {
         type            patch;
-        nFaces          200;
-        startFace       8300;
+        nFaces          60;
+        startFace       5280;
     }
     outlet
     {
         type            patch;
-        nFaces          100;
-        startFace       8500;
+        nFaces          30;
+        startFace       5340;
     }
     top
     {
         type            symmetryPlane;
         inGroups        1(symmetryPlane);
-        nFaces          200;
-        startFace       8600;
+        nFaces          60;
+        startFace       5370;
     }
     bottom
     {
         type            symmetryPlane;
         inGroups        1(symmetryPlane);
-        nFaces          100;
-        startFace       8800;
+        nFaces          30;
+        startFace       5430;
     }
     step
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          200;
-        startFace       8900;
+        nFaces          60;
+        startFace       5460;
     }
     defaultFaces
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          600;
-        startFace       9100;
+        nFaces          5400;
+        startFace       5520;
     }
 )
 
