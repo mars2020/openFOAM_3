@@ -28,7 +28,7 @@
 #SBATCH -p normal          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
 #SBATCH -n 1               # Total # of mpi tasks (should be 1 for serial)
-#SBATCH -t 01:30:00        # Run time (hh:mm:ss)
+#SBATCH -t 00:20:00        # Run time (hh:mm:ss)
 ###  #SBATCH --mail-user=youremail@utexas.edu
 ###  #SBATCH --mail-type=all    # Send email at begin and end of job
 #SBATCH -A COE-347-SP2019       # Allocation name (req'd if you have more than 1)
@@ -54,6 +54,6 @@ checkMesh
 rhoCentralFoam
 
 # extract the graphs
-postProcess -func graph
+#postProcess -func graph
 
 # ---------------------------------------------------
